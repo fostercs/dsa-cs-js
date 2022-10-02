@@ -49,6 +49,9 @@ menu:
     - name: JS Foundations
       url: /js-foundations
       weight: 2
+    - name: ES6 Features
+      url: /es6-features
+      weight: 10
 
 markup:
   defaultMarkdownHandler: goldmark
