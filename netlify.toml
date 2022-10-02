@@ -5,7 +5,7 @@
 [build.environment]
   HUGO_VERSION = "0.83.1"
   HUGO_THEME = "cupper-hugo-theme"
-  HUGO_BASEURL = "https://cupper-hugo-theme.netlify.app"
+  HUGO_BASEURL = "https://dsa-cs-js.netlify.app"
 
 [[headers]]
   for = "/*"
