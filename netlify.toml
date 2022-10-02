@@ -1,5 +1,5 @@
 [build]
-  publish = "cupper-hugo-theme/src"
+  publish = "public"
   command = "cd cupper-hugo-theme/src && hugo --themesDir ../.."
 
 [build.environment]
@@ -11,3 +11,8 @@
   for = "/*"
     [headers.values]
       Access-Control-Allow-Origin = "*"
+
+[context.production.environment]
+HUGO_VERSION = "0.104.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
