@@ -1,6 +1,6 @@
 [build]
-  publish = "cupper-hugo-theme/public"
-  command = "mkdir cupper-hugo-theme/public && cd cupper-hugo-theme/src && hugo --themesDir ../.."
+  publish = "cupper-hugo-theme/src"
+  command = "cd cupper-hugo-theme/src && hugo --themesDir ../.."
 
 [build.environment]
   HUGO_VERSION = "0.83.1"
