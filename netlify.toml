@@ -1,5 +1,5 @@
 [build]
-  publish = "public"
+  publish = "/"
   command = "cd cupper-hugo-theme/src && hugo --themesDir ../.."
 
 [build.environment]
