@@ -1,6 +1,6 @@
 [build]
   publish = "src"
-  command = "cd cupper-hugo-theme/src && hugo --themesDir ../.."
+  command = "hugo --themesDir ../.."
 
 [build.environment]
   HUGO_VERSION = "0.83.1"
